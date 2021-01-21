@@ -1,0 +1,17 @@
+<div class="container">
+  <mat-card>
+    <mat-card-content>
+      <div class="chart" style="display: block;">
+        <canvas baseChart  height="400"
+          [datasets]="lineChartData"
+          [labels]="lineChartLabels"
+          [options]="lineChartOptions"
+          [colors]="lineChartColors"
+          [legend]="lineChartLegend"
+          [chartType]="lineChartType"
+          [plugins]="lineChartPlugins">
+        </canvas>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
